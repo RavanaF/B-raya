@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap;400&family=Secular+One&display=swap');
+.carousel {
+    padding-top: 15px;
+}
+
+.menu-superior {
+    font-weight: bold;
+    background-color: #ffde59;
+}
+
+.menu-superior li {
+    color: white;
+}
+
+.menu-superior li a {
+    border-left: 1px solid white;
+}
+
+.carousel {
+    max-width: 1100px;
+}
+
+a :hover {
+    color: #000;
+    text-decoration: underline;
+    background-color: #ffde59
+}
+
+.categorias ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.categorias li {
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    background-color: #ffde59;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.categorias a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.categorias li:hover {
+    color: white;
+    background-color: #81a7f2;
+    transition: 0.6s;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+}
+
+main {
+    min-height: 200px;
+}
+
+.icon-bar {
+    color: black;
+}
+
+.botao-sanduiche {
+    padding-bottom: -5px;
+    background-color: #ffde59;
+}
+
+.navbar-header button:hover {
+    background-color: #000(0, 0, 0, 0.3);
+}
+
+@media(max-width:768px) {
+    .carousel {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 5px 0;
+    }
+}
+
+.produtos img {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #ffde59;
+}
+
+.produtos label {
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+
+#rodape {
+    background-color: #000;
+    padding: 15px;
+    width: 100%;
+}
+
+#area-rodape {
+    background-color: rgb(255, 255, 136);
+    text-align: center;
+}

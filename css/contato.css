@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Praise&display=swap');
+.carousel {
+    padding-top: 15px;
+}
+
+.menu-superior {
+    font-weight: bold;
+    background-color: #ffde59;
+}
+
+.menu-superior li {
+    color: white;
+}
+
+.menu-superior li a {
+    border-left: 1px solid white;
+}
+
+.carousel {
+    max-width: 1100px;
+}
+
+main {
+    min-height: 100px;
+}
+
+.icon-bar {
+    color: black;
+}
+
+.botao-sanduiche {
+    padding-bottom: -5px;
+    background-color: #ffde59;
+}
+
+.navbar-header button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width:768px) {
+    .carousel {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 5px 0;
+    }
+}
+
+.redes img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    border: 4px solid #ffde59;
+}
+
+.equipe label {
+    font-size: 18px;
+}
+
+.title {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.logo ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.logo li {
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+    text-align: left;
+}
+
+
+/*Autor dos ícones*/
+
+.autor:link,
+.autor:visited {
+    color: #000;
+}
+
+.autor:hover {
+    color: #000;
+    text-decoration: underline;
+    background-color: #ffde59;
+}
+
+.title {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Redes Sociais*/
+
+.share-btn {
+    display: inline-block;
+    color: #ffde59;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+}
+
+.share-btn:hover {
+    color: #ffde59;
+}
+
+.share-btn:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+    color: #ffde59;
+    outline: none;
+}
+
+.botao {
+    background-color: #ffde59;
+}
+
+
+/* Botões */
+
+.long-share-btn {
+    display: inline-block;
+    color: #000;
+    border: none;
+    padding: 0.5em 1.5em;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.long-share-btn:hover {
+    color: #000;
+}
+
+.long-share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #000;
+    outline: none;
+}
+
+a.long-share-btn {
+    text-decoration: none;
+}
+
+#rodape {
+    background-color: #000;
+    padding: 15px;
+    width: 100%;
+}
+
+#area-rodape {
+    background-color: rgb(255, 255, 136);
+    text-align: center;
+}
